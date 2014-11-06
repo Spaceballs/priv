@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Iw31gGT1EeSorYK-32V5DA" name="Model">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_Iw31gWT1EeSorYK-32V5DA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_KOo0AGT1EeSorYK-32V5DA" name="ScriptClass"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_SwmOAGT1EeSorYK-32V5DA" name="GroupScript">
+    <generalization xmi:type="uml:Generalization" xmi:id="_X-M7UGT1EeSorYK-32V5DA" general="_KOo0AGT1EeSorYK-32V5DA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_aMLOwGT1EeSorYK-32V5DA" name="SoftwareScript">
+    <generalization xmi:type="uml:Generalization" xmi:id="_dCgisGT1EeSorYK-32V5DA" general="_KOo0AGT1EeSorYK-32V5DA"/>
+  </packagedElement>
+</uml:Model>
